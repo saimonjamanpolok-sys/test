@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffe1eb">
+  <title>For Saniya Anahita ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <main class="app">
+    <section id="question" class="screen active">
+      <div class="intro-heart">💗</div>
+      <p class="eyebrow">A little question from Polok</p>
+      <h1>Saniya Anahita,<br><span>Do You Love Me?</span></h1>
+      <p class="bangla">সানিয়া আনাহিতা, তুমি কি আমাকে ভালোবাসো? ❤️</p>
+      <div class="cute-art">🥺💕</div>
+      <div class="actions">
+        <button id="yesBtn" class="btn yes">Yes 💖</button>
+        <button id="noBtn" class="btn no">No 🙈</button>
+      </div>
+      <p class="tiny">একবার Yes চাপ দিয়ে দেখো… 🥰</p>
+    </section>
+
+    <section id="welcome" class="screen">
+      <div class="big-heart">💗</div>
+      <p class="eyebrow">My favourite person</p>
+      <h1>I Knew It,<br>Saniya! 😍</h1>
+      <h2>I Love You Forever ❤️</h2>
+      <p class="bangla">আমি জানতাম, সানিয়া! 🥹<br>আমি তোমাকে সারাজীবন ভালোবাসব।</p>
+      <p class="message">তুমি আমার প্রতিদিনের হাসি, আমার শান্তি, আর আমার সবচেয়ে সুন্দর অনুভূতি। তোমাকে পাশে নিয়েই জীবনের প্রতিটি মুহূর্ত কাটাতে চাই।</p>
+      <button class="btn primary next" data-next="videos">Continue 💕</button>
+    </section>
+
+    <section id="videos" class="screen">
+      <p class="eyebrow">Little moments, forever memories</p>
+      <h1>Our Favourite Videos 🎬</h1>
+      <p class="bangla">তোমার সুন্দর মুহূর্তগুলো ❤️</p>
+      <div id="videoStage" class="media-stage">
+        <video id="memoryVideo" playsinline controls></video>
+        <p id="videoCaption" class="caption">তোমার জন্য রাখা কিছু সুন্দর স্মৃতি 💗</p>
+        <p id="videoNote" class="note"></p>
+      </div>
+      <div class="step-actions">
+        <button id="videoNext" class="btn primary">Next video ➜</button>
+        <button class="text-btn next" data-next="photos">Skip to photos</button>
+      </div>
+    </section>
+
+    <section id="photos" class="screen">
+      <p class="eyebrow">My beautiful girl</p>
+      <h1>My Beautiful Saniya Anahita 🌷</h1>
+      <p class="bangla">তোমার প্রতিটি ছবিই আমার কাছে স্পেশাল ❤️</p>
+      <div class="photo-frame">
+        <img id="memoryPhoto" src="assets/photo-01-eyes.png" alt="A favourite memory">
+      </div>
+      <p id="photoCounter" class="caption">1 / 5 · My favourite eyes 💗</p>
+      <p id="photoNote" class="message">তোমার চোখের মায়াতেই যেন আমার পুরো পৃথিবী।</p>
+      <div class="step-actions">
+        <button id="photoNext" class="btn primary">Next photo ➜</button>
+      </div>
+    </section>
+
+    <section id="letter" class="screen">
+      <div class="intro-heart">💌</div>
+      <p class="eyebrow">A little secret from Polok</p>
+      <h1>For You,<br><span>My Saniya</span> ❤️</h1>
+      <div class="letter-card">
+        <p class="message">প্রিয় Saniya Anahita,</p>
+        <p class="message">তোমাকে জীবনে পাওয়ার পর ছোট ছোট মুহূর্তগুলোও অনেক বেশি সুন্দর লাগে। তোমার হাসি, তোমার কথা, তোমার অভিমান—সবকিছুই আমার কাছে ভীষণ আপন।</p>
+        <p class="message">সবসময় তোমার পাশে থাকতে চাই। সুখে-দুঃখে, হাসিতে-কান্নায়—তোমার হাতটা ধরে রাখতে চাই। আজকের এই ছোট্ট সারপ্রাইজটা শুধু তোমার জন্য।</p>
+        <p class="signature">অনেক ভালোবাসা,<br><strong>তোমার Polok</strong> ❤️</p>
+      </div>
+      <button class="btn primary next" data-next="proposal">Open My Final Question 💍</button>
+    </section>
+
+    <section id="proposal" class="screen">
+      <div class="proposal-ring">💍</div>
+      <p class="eyebrow">One question, from my heart</p>
+      <h1>Will You Marry Me,<br><span>Saniya?</span></h1>
+      <p class="bangla">সানিয়া, তুমি কি আমার সারাজীবনের সঙ্গী হবে? ❤️</p>
+      <p class="message">আজ, আগামীকাল, আর জীবনের প্রতিটি দিনে—আমি তোমার হাতটা ধরে রাখতে চাই।</p>
+      <div class="final-hearts">❤️ 💗 ❤️</div>
+      <p class="signature">Forever yours,<br><strong>Polok</strong> 🥰</p>
+      <button id="proposalYes" class="btn yes">YES ❤️</button>
+      <p class="tiny">তোমার উত্তরটা আমার কাছে সবচেয়ে স্পেশাল 🥹</p>
+      <button id="replay" class="text-btn">Watch again ↻</button>
+    </section>
+
+    <section id="answer" class="screen">
+      <div class="big-heart">💖</div>
+      <p class="eyebrow">My happiest moment</p>
+      <h1>I Love You Too,<br><span>Polok! ❤️</span></h1>
+      <p class="bangla">আমিও তোমাকে অনেক ভালোবাসি, Polok! 🥹</p>
+      <div class="final-hearts">🌹 💗 🌹</div>
+      <p class="message">তোমার হাত ধরে সারাজীবন এভাবেই থাকতে চাই। তুমি আমার সবচেয়ে সুন্দর গল্প।</p>
+      <p class="signature">Forever & Always,<br><strong>Saniya Anahita</strong> 💍</p>
+      <button id="replayFromAnswer" class="btn primary">Watch our story again ↻</button>
+    </section>
+  </main>
+  <button id="soundToggle" class="sound-toggle" aria-label="Toggle romantic sound">♫ Sound: On</button>
+  <script src="script.js"></script>
+</body>
+</html>
